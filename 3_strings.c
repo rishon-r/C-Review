@@ -12,6 +12,10 @@ int main(){
 
   char *my_first_string= "This is my first string in C";
 
+  // In C, 'a' and "a" are two different things
+  // 'a' is a char
+  // and "a" is a char* with one element
+
   return 0;
 
 }
