@@ -26,5 +26,5 @@ int main(){
   // The fields of a struct are laid out in memory contiguously (next to each other)
   // Structs can vary in size depending on how they are laid out.
   // C is a language that aims to give tight control over memory, so the fact that you can control the layout of your structs is a feature, not a bug.
-  // As a rule of thumb, ordering your fields from largest to smallest will help the compiler minimize paddin
+  // As a rule of thumb, ordering your fields from largest to smallest will help the compiler minimize padding
 }
