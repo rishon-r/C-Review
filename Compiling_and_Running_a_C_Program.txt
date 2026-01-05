@@ -9,7 +9,17 @@ preprocessor operates on before the compiler even gets started.
 - Common preprocessor directives, as they’re called, are #include and #define
 
 2. COMPILATION:
+- Compilation refers to the process of taking your C source code and converting it into a program that your operating system can execute 
 - After the preprocessor is done with whatever it is supposed to do, the code is then ready for it to be converted by the compiler
 into machine code or assembly code
+- Machine code refers to the 0s and 1s that the CPU can manually execute very fast
 - Source code runs through the preprocessor, then the output of that runs through the compiler, then that produces an executable for you to
 run
+- C compiler refers to the program that does the Compilation
+- gcc is a compiler that a lot of unix like operating systems have pre installed
+- On Macs, the stock compiler isn’t gcc—it’s clang. But a wrapper is also installed so you can run gcc and
+have it still work
+- We can still install gcc using homebrew: brew install gcc
+
+3. Building with gcc
+
