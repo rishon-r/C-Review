@@ -38,7 +38,8 @@ int main(){
   // Example to print numbers 1-100:
   int i=1;
   while (i<=100){
-    printf('%d\n', i);
+    printf("%d\n", i);
+    i++;
   }
 
   /* 

@@ -18,9 +18,9 @@ int main(){
   char io_mode= 'w';
   float throttle_speed= 0.2;
 
-  printf('Max recursive calls: %d\n', max_recursive_calls);
-  printf('IO Mode: %c\n', io_mode);
-  printf('Throttle speed: %f\n', throttle_speed);
+  printf("Max recursive calls: %d\n", max_recursive_calls);
+  printf("IO Mode: %c\n", io_mode);
+  printf("Throttle speed: %f\n", throttle_speed);
   // The %d, %f, %c are all called FORMAT SPECIFIERS, we will cover them in more detail later
 
 

@@ -49,23 +49,23 @@ int main(){
   // dest now contains "Hello"
 
   // 2. strncpy - Copies n number of characters from one string to another
-  char src[] = "Hello";
-  char dest[6];
-  strncpy(dest, src, 3);
+  char src1[] = "Hello";
+  char dest1[6];
+  strncpy(dest1, src1, 3);
   // dest now contains "Hel"
-  dest[3] = '\0';
+  dest1[3] = '\0';
   // ensure null termination
 
   // 3. strcat: Concatenates one string to another
-  char dest[12] = "Hello";
-  char src[] = " World";
-  strcat(dest, src);
+  char dest2[12] = "Hello";
+  char src2[] = " World";
+  strcat(dest2, src2);
   // dest now contains "Hello World"
 
   // 4. strncat: Concatenates a specified number of characters from one string to another
-  char dest[12] = "Hello";
-  char src[] = " World";
-  strncat(dest, src, 3);
+  char dest3[12] = "Hello";
+  char src3[] = " World";
+  strncat(dest3, src3, 3);
   // dest now contains "Hello Wo"
 
   // 5. strlen- Returns the length of a string
@@ -80,13 +80,13 @@ int main(){
   // result is negative since "Hello" < "World"
 
   // 7. strchr: Finds the first occurrence of a character in a string
-  char str[] = "Hello";
-  char *pos = strchr(str, 'l');
+  char str3[] = "Hello";
+  char *pos = strchr(str3, 'l');
   // pos points to the first 'l' in "Hello"
 
   // 8. strstr- Points to the first occurence of a substring in a string
-  char str[] = "Hello World";
-  char *pos = strstr(str, "World");
+  char str4[] = "Hello World";
+  char *pos1 = strstr(str4, "World");
   // pos points to "World" in "Hello World"
 
   return 0;

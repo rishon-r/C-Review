@@ -14,6 +14,10 @@ int main(){
   // C IGNORES ALL WHITESPACE so indentation is just for style, doesn't have syntactical meaning
   // Closing brackey } indicates the end of a functions body
 
+  // #include tells the C Preprocessor to pull the contents of another file and insert it into the code right there
+  // <stdio.h> is the standard input/output header file. It is the .h extension that gives it away
+  // It gives us a lot of I/O functionality including the printf statement
+
   // Program statements in C terminate with the semi-colon
 
   // C is also a COMPILED LANGUAGE
@@ -42,7 +46,7 @@ int main(){
   the printf() function also does not automatically pad the string weith a newline character like the print() function in Python
   So, we need to add it explicitly
   */ 
-  printf('Hello World\n');
+  printf("Hello World\n");
 
   return 0;
 }

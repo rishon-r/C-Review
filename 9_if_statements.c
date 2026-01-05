@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// FUNCTION PROTOTYPES
+int greater(int x, int y);
+
 int main(){
 
   // C like most languages has if-statements for control flow

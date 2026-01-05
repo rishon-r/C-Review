@@ -16,7 +16,7 @@ int main(){
     .z=3
   };
 
-  printf('Size of point: %zu', sizeof(point));
+  printf("Size of point: %zu", sizeof(point));
 
   // Structs are stored contigiously in memory, one field after another
   // In Mixed type structs, fields are padded so that all fields occupy the same word length in memory

@@ -1,11 +1,16 @@
 #include <stdio.h>
 
+// These are called function prototypes and must be there before the functions are called
+
+float sum(int x, int y);
+void print_result(void);
+
 int main(){
 
   // Here, we call the function
   float result= sum(10,12);
 
-  printf('Here is the result: %f\n', result);
+  printf("Here is the result: %f\n", result);
 
 
   return 0;
@@ -27,5 +32,5 @@ void print_result(void){
   // THE void TYPE in a function signature basically tells us that the function returns no value
   // void in C is not like None in Python in the fact that it cannot be assigned to a variable
   // It can also be used to explicitly state that a function takes no arguments
-  print("result");
+  printf("result");
 }
